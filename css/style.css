@@ -1,0 +1,217 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -----------------header-------------------------- */
+header
+{
+    background-image: url(../Ass4-Images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+}
+.layer
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h5
+{
+font-weight: 900;
+font-size: 50px;
+margin-bottom: 10px;
+}
+.icons i
+{
+    background-color: #010e17;
+}
+/* -----------------job-profile-------------------------- */
+.job-profile,.service,.testimonials
+{
+    background: linear-gradient(to bottom,  #fbfeff 0%,#f6f6f6 100%);
+    padding:100px 0px;
+}
+h1,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.job-profile .profile-content h3
+{
+    
+    margin-bottom: 5px;
+    font-weight: 800;
+    
+}
+.job-profile .profile-content p
+{
+    line-height: 1.6;
+    margin-bottom:30px;
+    font-size: 15px;
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+
+}
+.job-profile .sub-title
+{
+    display: inline-block;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.section-progress .progress-bar
+{
+    background-color: #1c1c1c;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 10px;
+}
+.section-progress .progress
+{
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+.btn-section button
+{
+    font-size: 13px;
+    /* padding:10px 30px; */
+    transition: all .5s;
+    
+}
+
+.btn-section .btn-download
+{
+    background-color: #1c1c1c;
+    color: white;
+    
+}
+.btn-section .btn-download:hover
+{
+    background-color:transparent;
+    color: #343434 ;
+    border: 1px solid #1c1c1c;
+}
+.btn-section .btn-contact
+{
+    background-color:transparent;
+    color: #343434  ;
+    border: 1px solid #1c1c1c;
+}
+.btn-section .btn-contact:hover
+{
+    background-color: #1c1c1c;
+    color: white;
+}
+/* -------------------service section------------------------- */
+.service h3
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.service .card
+{
+    padding: 40px 20px;
+    background: #fff;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.service h4
+{
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.service p
+{
+    line-height: 1.6;
+    
+    font-size: 15px;
+    color: #748182;
+    
+}
+.service .card-body i
+{
+    border: transparent;
+    background-color: rgb(228, 225, 225);
+    transition: all .5s;
+}
+
+.service .card-body i:hover
+{
+    background-color: #1c1c1c ;
+    color: white;
+
+}
+/* ---------------testimonials--------------------- */
+.testimonials h3
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+.testimonials .inner
+{
+ 
+        width:100%;
+        height:100%;
+        /* min-width:150px;
+        min-height:100px; */
+        overflow:hidden;
+        display:block;
+        
+      
+}
+.testimonials .carousel-caption 
+{
+    color: #748182 ;
+    margin-bottom: 20%;
+    word-spacing: 2px;
+    /* height: 100%; */
+    /* background-color: salmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+
+    
+}
+.testimonials .carousel-img
+{
+width: 90px;
+height: 90px;
+
+}
+.testimonials h4 {
+color:#4c4c4c ;
+font-weight: 600;
+margin: 30px 0 5px;
+font-size: 16px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:#748182;
+    margin-bottom: 20%;
+   
+  }
+  /* -------------------footer--------------------------> */
+  footer p
+  {
+  font-size: 13px;
+    word-spacing: 2px;
+    text-align: center;
+    color: #748182;
+}
+footer
+{
+    
+    background-color: #0d0c0c;
+}
